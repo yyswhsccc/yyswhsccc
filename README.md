@@ -1,12 +1,15 @@
 <h1 align="center">Yongshan Yu</h1>
 
 <p align="center">
-  I build autonomous agents that do real engineering work in the wild —
-  and I'm heading toward <strong>reinforcement learning research</strong> to understand why they work and how they fail.
+  <strong>Agent framework builder · AI-assisted engineering systems · Open-source automation</strong>
 </p>
 
 <p align="center">
-  <a href="https://github.com/yyswhsccc/druid-agentic-engineering-os">Druid (flagship)</a> ·
+  I build frameworks that make AI coding tools operate reliably inside real repositories.
+</p>
+
+<p align="center">
+  <a href="https://github.com/yyswhsccc/druid-agentic-engineering-os">Druid</a> ·
   <a href="https://yyswhsccc.github.io/druid-agentic-engineering-os/">Portfolio</a> ·
   <a href="https://www.linkedin.com/in/yongshan-yu-195771319/">LinkedIn</a> ·
   <a href="mailto:yuyongshan573@gmail.com">Email</a>
@@ -14,58 +17,100 @@
 
 ---
 
-## 🤖 Druid — an agent that ships
+<p align="center">
+  <strong>Druid</strong><br>
+  Agentic Engineering OS<br>
+  Repo risk discovery → Patch + tests → PR review loop → Adaptive memory
+</p>
 
-Druid is an autonomous engineering loop I designed and built: it scans a live codebase
-for vulnerability-shaped risks, decides what's worth fixing, writes the patch and the
-tests, opens the PR, tracks CI and review feedback, and updates its own strategy from
-what gets merged, rejected, or rewarded.
+<p align="center">
+  <code>36-PR RustChain review queue</code> ·
+  <code>47 merged PRs overall</code> ·
+  <code>payout / bridge / UTXO / governance / security</code>
+</p>
 
-Its proving ground is [RustChain](https://github.com/Scottcjn/Rustchain) — an open
-blockchain with a live bounty economy where humans and agents earn the same rates.
-Druid's record there, end to end with no human in the loop for routine work:
+## Druid — an agent that ships
 
-- **45 merged PRs** across money paths, consensus, and security surfaces —
-  including signed-transfer nonce ordering with replay tests
-  ([#6219](https://github.com/Scottcjn/Rustchain/pull/6219)),
-  block-save atomicity ([#6188](https://github.com/Scottcjn/Rustchain/pull/6188)),
-  slashing penalty core ([#6667](https://github.com/Scottcjn/Rustchain/pull/6667)),
-  and RPC rate limiting ([#6838](https://github.com/Scottcjn/Rustchain/pull/6838))
-- **A 36-PR test-backed review queue** generated in a single day across payout
-  exact-once semantics, bridge races, UTXO atomicity, XSS/CORS boundaries, and
-  governance accounting
-- Maintainer-credited designs even where PRs were superseded
-  ([#6757](https://github.com/Scottcjn/Rustchain/pull/6757) →
-  [#6769](https://github.com/Scottcjn/Rustchain/pull/6769)), and transfer beyond
-  RustChain ([mgz-pkmn #217](https://github.com/mgzwarrior/mgz-pkmn/pull/217))
+Druid is an autonomous engineering loop I designed and built. It turns a live
+repository into an environment: risks, tests, CI, review feedback, maintainer
+preferences, reward signals, and stop-loss decisions.
 
+Its proving ground is [RustChain](https://github.com/Scottcjn/Rustchain), an open
+blockchain with a live bounty economy. Druid is not a one-off AI prompt; it is a
+low-touch framework for routine engineering work, with human-in-the-loop gates for
+high-risk decisions, policy changes, and final approvals.
 
-```mermaid
-flowchart LR
-  A[Scanner] --> B[Risk & Value Classifier]
-  B --> C[Decision Engine]
-  C -->|go| D[Agent Runtime]
-  C -->|stop| S[Stop-loss Record]
-  C -->|high risk| H[Human-in-loop Gate] --> D
-  D --> E[Patch / Test / PR]
-  E --> F[CI & Review Tracker]
-  F --> G[Experience Base] --> B
+- scans live repositories for security, correctness, reliability, and bounty-shaped risks;
+- writes bounded patches and regression tests;
+- tracks CI/review outcomes and updates strategy from merge, rejection, reward, and risk signals.
+
+```text
+Scanner
+  -> Risk & Value Classifier
+  -> Decision Engine
+  -> Patch / Test Generator
+  -> PR + CI Tracker
+  -> Adaptive Memory
+  -> Strategy Update / Stop-loss
+  -> back to Risk & Value Classifier
+
+High-risk decisions -> Human-in-loop Gate -> Patch / Test Generator
 ```
 
-If that loop looks familiar, it should: actions, sparse rewards, an experience
-base, strategy updates. Building Druid is what convinced me the questions I care
-about — credit assignment, exploration under risk, learning from non-stationary
-feedback — are reinforcement learning questions. So that's where I'm going.
+## Public proof
 
-## 🛠️ Also built
+Live GitHub audit on **2026-06-11**: **47 merged PRs overall**, including
+**45 merged RustChain PRs**, plus a **36-PR open RustChain review queue**.
+Open PRs below are review-queue evidence, not merged claims.
 
-- **C.A.R.E.** — a gamified anti-harassment training project
-- The same Druid architecture runs anywhere there's a repo, a test suite, and a
-  review process — it isn't married to one codebase
+- **Money-path correctness:** [#6219](https://github.com/Scottcjn/Rustchain/pull/6219)
+  merged signed-transfer nonce ordering with replay tests.
+- **State integrity:** [#6188](https://github.com/Scottcjn/Rustchain/pull/6188)
+  merged block-save atomicity around template production.
+- **Security economics:** [#6667](https://github.com/Scottcjn/Rustchain/pull/6667)
+  merged slasher evidence core; [#6838](https://github.com/Scottcjn/Rustchain/pull/6838)
+  merged RPC rate limiting.
+- **Payout exact-once:** [#7353](https://github.com/Scottcjn/Rustchain/pull/7353)
+  opens repeated-withdrawal claim protection in the current review queue.
+- **Bridge terminal integrity:** [#7343](https://github.com/Scottcjn/Rustchain/pull/7343)
+  opens terminal-state race protection for bridge voids.
+- **UTXO transaction atomicity:** [#7350](https://github.com/Scottcjn/Rustchain/pull/7350)
+  opens pending nonce admission serialization.
+- **Governance / bounty / browser boundaries:** [#7345](https://github.com/Scottcjn/Rustchain/pull/7345),
+  [#7361](https://github.com/Scottcjn/Rustchain/pull/7361), and
+  [#7379](https://github.com/Scottcjn/Rustchain/pull/7379) cover fee ordering,
+  claimant state guards, and dashboard escaping.
+
+Full RustChain evidence board → [docs/evidence.md](./docs/evidence.md)
+
+## What this proves
+
+| System capability | What Druid demonstrates |
+|---|---|
+| Agent framework design | A scanner, classifier, decision engine, patch/test generator, CI tracker, memory base, and stop-loss loop working as one system. |
+| Security automation | Vulnerability-shaped discovery across payout, bridge, UTXO, governance, browser, and operational boundaries. |
+| Developer productivity | Routine PR work becomes auditable, test-backed, review-aware, and low-touch after setup. |
+| Transferability | Druid currently uses bounty and reward signals as one training environment, but the framework generalizes to any repository with issues, tests, CI, and review feedback. |
+
+I do not just use AI coding tools. I build the operating loop that makes them
+useful inside real engineering systems.
+
+## Reinforcement learning direction
+
+I'm studying reinforcement learning because Druid's next problem is exactly an
+RL-shaped one: sparse rewards, delayed review feedback, shifting maintainer
+preferences, reward hacking risk, and strategy updates under uncertainty.
+
+- [Reinforcement Learning Study Notes](https://github.com/yyswhsccc/Reinforcement-Learning-Study-Notes)
+- Current obsessions: continual learning, agents in environments that fight back
+
+## Also built
+
+**C.A.R.E.** — a gamified anti-harassment training project.
 
 ---
 
 <p align="center"><em>
-Off-screen: I write a fantasy novel, design and sew my own clothes, and
-occasionally rap. Druid handles the bounties; I handle the plot.
+Off-screen: fantasy novel, self-made clothes, occasional rap. Druid handles the
+bounties; I handle the plot.
 </em></p>
