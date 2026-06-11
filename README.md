@@ -95,15 +95,6 @@ Full RustChain evidence board → [docs/evidence.md](./docs/evidence.md)
 I do not just use AI coding tools. I build the operating loop that makes them
 useful inside real engineering systems.
 
-## Reinforcement learning direction
-
-I'm studying reinforcement learning because Druid's next problem is exactly an
-RL-shaped one: sparse rewards, delayed review feedback, shifting maintainer
-preferences, reward hacking risk, and strategy updates under uncertainty.
-
-- [Reinforcement Learning Study Notes](https://github.com/yyswhsccc/Reinforcement-Learning-Study-Notes)
-- Current obsessions: continual learning, agents in environments that fight back
-
 ## Also built
 
 **C.A.R.E.** — a gamified anti-harassment training project.
