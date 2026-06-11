@@ -57,12 +57,6 @@ base, strategy updates. Building Druid is what convinced me the questions I care
 about — credit assignment, exploration under risk, learning from non-stationary
 feedback — are reinforcement learning questions. So that's where I'm going.
 
-## 📚 What I'm studying
-
-- [Reinforcement Learning Study Notes](https://github.com/yyswhsccc/Reinforcement-Learning-Study-Notes) —
-  working through the foundations, in public
-- Current obsessions: continual learning, agents in environments that fight back
-
 ## 🛠️ Also built
 
 - **C.A.R.E.** — a gamified anti-harassment training project
