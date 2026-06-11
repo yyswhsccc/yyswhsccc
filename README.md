@@ -39,9 +39,6 @@ Druid's record there, end to end with no human in the loop for routine work:
   [#6769](https://github.com/Scottcjn/Rustchain/pull/6769)), and transfer beyond
   RustChain ([mgz-pkmn #217](https://github.com/mgzwarrior/mgz-pkmn/pull/217))
 
-Druid works only for bounties. No supervision needed.
-(Yes, I watch for reward hacking — that's what the stop-loss and human-in-loop
-gates are for.)
 
 ```mermaid
 flowchart LR
