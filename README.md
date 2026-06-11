@@ -44,6 +44,28 @@ high-risk decisions, policy changes, and final approvals.
 - writes bounded patches and regression tests;
 - tracks CI/review outcomes and updates strategy from merge, rejection, reward, and risk signals.
 
+### The Operating Loop Matters
+
+Generic coding agents are getting better at writing patches. That is not the scarce part.
+
+The scarce part is the operating loop around them: choosing the right environment, classifying risk and value, generating bounded patches with tests, tracking CI and review feedback, learning from merge/rejection/reward signals, and stopping when the work is no longer worth pursuing.
+
+Druid is my proof of that layer. It is not just a PR generator. It is a low-touch engineering loop for feedback-rich repositories.
+
+**I do not just use AI tools. I build the framework that makes AI tools operational.**
+
+### Environment Selection as Architecture
+
+**Druid does not optimize for opening PRs anywhere. It optimizes for engineering environments where feedback exists.**
+
+That choice is part of the architecture. Druid needs CI results, tests, review feedback, merge/rejection outcomes, reward signals, and stop-loss events to decide what to continue, what to abandon, and what to remember.
+
+Low-signal repositories are weak environments for learning agents: no review means no useful learning signal.
+
+RustChain is the first public proof environment, not the boundary of the framework. It provided enough feedback density for Druid to run the loop publicly: real code, CI, maintainer review, bounty/reward signals, visible outcomes, and complex surfaces across payout, bridge, UTXO, governance, security, and reliability.
+
+The company-facing point is broader: internal engineering environments usually provide even better signal — issue priority, code ownership, CI, review rules, security policy, release constraints, and final approval gates.
+
 ```text
 Scanner
   -> Risk & Value Classifier
@@ -91,9 +113,9 @@ Full RustChain evidence board → [docs/evidence.md](./docs/evidence.md)
 | Security automation | Vulnerability-shaped discovery across payout, bridge, UTXO, governance, browser, and operational boundaries. |
 | Developer productivity | Routine PR work becomes auditable, test-backed, review-aware, and low-touch after setup. |
 | Transferability | Druid currently uses bounty and reward signals as one training environment, but the framework generalizes to any repository with issues, tests, CI, and review feedback. |
+| Company-facing value | Companies do not just need an agent that writes code. They need agent frameworks that understand repositories, CI, policies, review rules, risk tolerance, and approval gates. |
 
-I do not just use AI coding tools. I build the operating loop that makes them
-useful inside real engineering systems.
+I do not just use AI tools. I build the framework that makes AI tools operational.
 
 ## Also built
 
