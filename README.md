@@ -62,9 +62,11 @@ That choice is part of the architecture. Druid needs CI results, tests, review f
 
 Low-signal repositories are weak environments for learning agents: no review means no useful learning signal.
 
-RustChain is the first public proof environment, not the boundary of the framework. It provided enough feedback density for Druid to run the loop publicly: real code, CI, maintainer review, bounty/reward signals, visible outcomes, and complex surfaces across payout, bridge, UTXO, governance, security, and reliability.
+RustChain is Druid's first public feedback-rich proving ground, not the boundary of the framework. It provided enough feedback density for Druid to run the loop publicly: real code, CI, maintainer review, bounty/reward signals, visible outcomes, and complex surfaces across payout, bridge, UTXO, governance, security, and reliability.
 
 The company-facing point is broader: internal engineering environments usually provide even better signal — issue priority, code ownership, CI, review rules, security policy, release constraints, and final approval gates.
+
+The proof is not that Druid can open PRs anywhere. The proof is that Druid can run a repeatable engineering loop when feedback exists.
 
 ```text
 Scanner
