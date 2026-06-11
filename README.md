@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="./assets/druid-hero.svg" alt="Druid: Agentic Engineering OS">
-</p>
-
 <h1 align="center">Yongshan Yu</h1>
 
 <p align="center">
