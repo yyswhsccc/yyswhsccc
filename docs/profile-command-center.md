@@ -25,7 +25,7 @@ Use the README as a 15-second proof surface. Create a GitHub Pages portfolio for
 - `/druid` - architecture, operating loop, low-touch design.
 - `/week` - current weekly Druid review queue.
 - `/evidence` - PR evidence board and audit timestamp.
-- `/contact` - Yongshan + Weijie advisor / intro partner contact.
+- `/contact` - direct Yongshan contact and opportunity discussion entry points.
 
 The existing local draft lives at:
 

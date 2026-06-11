@@ -16,8 +16,6 @@
   <a href="https://github.com/yyswhsccc">GitHub</a>
   ·
   <a href="https://www.linkedin.com/in/yongshan-yu-195771319/">LinkedIn</a>
-  ·
-  <a href="mailto:weijie2@ualberta.ca">Weijie intro partner</a>
 </p>
 
 ## Command Signal
@@ -158,6 +156,3 @@ Queue state at audit time: **36 open RustChain PRs**, including **34 clean** and
 | GitHub | [yyswhsccc](https://github.com/yyswhsccc) |
 | LinkedIn | [Yongshan Yu](https://www.linkedin.com/in/yongshan-yu-195771319/) |
 | Email | [yuyongshan573@gmail.com](mailto:yuyongshan573@gmail.com) |
-| Weijie Sun | Early technical backer, advisor, and intro partner / representative for opportunity discussions. |
-| Weijie LinkedIn | [weijie-sun-8760648a](https://www.linkedin.com/in/weijie-sun-8760648a/) |
-| Weijie email | [weijie2@ualberta.ca](mailto:weijie2@ualberta.ca) |
