@@ -96,3 +96,4 @@ The goal is **low-touch after setup**, not zero oversight. Humans stay in the lo
 
 - GitHub: [yyswhsccc](https://github.com/yyswhsccc)
 - LinkedIn: [Yongshan Yu](https://www.linkedin.com/in/yongshan-yu-195771319/)
+- Email: yuyongshan573@gmail.com
