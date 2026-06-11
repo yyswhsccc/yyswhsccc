@@ -9,7 +9,7 @@ Current audit: no repositories are pinned on the profile.
 Recommended pinned repositories:
 
 1. `yyswhsccc/yyswhsccc` - profile command center.
-2. A new `druid-agentic-engineering-os` repo - sanitized Druid architecture, case studies, evidence board, and roadmap.
+2. `yyswhsccc/druid-agentic-engineering-os` - sanitized Druid architecture, case studies, evidence board, and roadmap.
 3. A new `druid-evidence` or `druid-pr-evidence` repo - auto-updated public PR evidence snapshots and weekly dashboards.
 4. `yyswhsccc/Rustchain` - useful only if the fork is kept aligned and used as a contribution/evidence bridge.
 5. `yyswhsccc/mgz-pkmn` - optional because it contains a maintainer-approved external merged PR signal.
@@ -19,7 +19,12 @@ Avoid pinning repositories that make the account look like a random fork collect
 
 ## GitHub Pages Bridge
 
-Use the README as a 15-second proof surface. Create a GitHub Pages portfolio for the full case study:
+Use the README as a 15-second proof surface. The full case study now lives in the Druid flagship repo:
+
+- Repo: `https://github.com/yyswhsccc/druid-agentic-engineering-os`
+- Pages: `https://yyswhsccc.github.io/druid-agentic-engineering-os/`
+
+Pages structure:
 
 - `/` - Yongshan + Druid hero, short proof, contact CTA.
 - `/druid` - architecture, operating loop, low-touch design.
@@ -27,13 +32,9 @@ Use the README as a 15-second proof surface. Create a GitHub Pages portfolio for
 - `/evidence` - PR evidence board and audit timestamp.
 - `/contact` - direct Yongshan contact and opportunity discussion entry points.
 
-The existing local draft lives at:
+Local working copy:
 
-`/Users/ssr/Documents/Codex/2026-06-02/druid-pr/druid-public-package/portfolio`
-
-Recommended future repo:
-
-`yyswhsccc/druid-portfolio`
+`/Users/ssr/Documents/Codex/2026-06-02/druid-agentic-engineering-os`
 
 ## Social Preview
 

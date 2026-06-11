@@ -15,6 +15,10 @@
 <p align="center">
   <a href="https://github.com/yyswhsccc">GitHub</a>
   ·
+  <a href="https://github.com/yyswhsccc/druid-agentic-engineering-os">Druid flagship</a>
+  ·
+  <a href="https://yyswhsccc.github.io/druid-agentic-engineering-os/">Portfolio</a>
+  ·
   <a href="https://www.linkedin.com/in/yongshan-yu-195771319/">LinkedIn</a>
 </p>
 
@@ -41,6 +45,8 @@
 **Druid is proof that I can design low-touch agentic engineering frameworks.**
 
 It is not a single-purpose PR bot. It is an operating loop for finding, validating, fixing, testing, submitting, maintaining, and learning from engineering work.
+
+Project entry: [Druid flagship repo](https://github.com/yyswhsccc/druid-agentic-engineering-os) / [GitHub Pages portfolio](https://yyswhsccc.github.io/druid-agentic-engineering-os/).
 
 ```mermaid
 flowchart LR
