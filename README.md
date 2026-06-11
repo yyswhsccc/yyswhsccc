@@ -56,15 +56,19 @@ Druid is my proof of that layer. It is not just a PR generator. It is a low-touc
 
 ### Environment Selection as Architecture
 
+Environment selection is part of Druid's architecture.
+
 **Druid does not optimize for opening PRs anywhere. It optimizes for engineering environments where feedback exists.**
 
 That choice is part of the architecture. Druid needs CI results, tests, review feedback, merge/rejection outcomes, reward signals, and stop-loss events to decide what to continue, what to abandon, and what to remember.
 
 Low-signal repositories are weak environments for learning agents: no review means no useful learning signal.
 
-RustChain is Druid's first public feedback-rich proving ground, not the boundary of the framework. It provided enough feedback density for Druid to run the loop publicly: real code, CI, maintainer review, bounty/reward signals, visible outcomes, and complex surfaces across payout, bridge, UTXO, governance, security, and reliability.
+RustChain is not the headline. It is Druid's first public feedback-rich proving ground, not the boundary of the framework. It provided enough feedback density for Druid to run the loop publicly: real code, CI, maintainer review, bounty/reward signals, visible outcomes, and complex surfaces across payout, bridge, UTXO, governance, security, and reliability.
 
-The company-facing point is broader: internal engineering environments usually provide even better signal — issue priority, code ownership, CI, review rules, security policy, release constraints, and final approval gates.
+The important signal is not the repository name. The important signal is the repeatable loop: scan, classify, patch, test, open PR, track review, learn, and stop-loss.
+
+The real target is feedback-rich engineering systems, the kind companies already have internally: issue priority, code ownership, CI, review rules, security policy, release constraints, and final approval gates.
 
 The proof is not that Druid can open PRs anywhere. The proof is that Druid can run a repeatable engineering loop when feedback exists.
 
