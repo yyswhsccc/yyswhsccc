@@ -97,7 +97,13 @@ useful inside real engineering systems.
 
 ## Also built
 
-**C.A.R.E.** — a gamified anti-harassment training project.
+**ARC in Action / At the Root** — a [production bilingual Moodle LMS](https://arc.attherootproject.ca/login/index.php?loginredirect=1)
+for a national Canadian education initiative on gender-based violence prevention.
+I built the learner-facing platform and low-touch operations layer: bilingual
+access, SCORM delivery, registration/enrolment flow, completion tracking,
+email/survey workflows, AWS/Linux maintenance, automated backups, monitoring,
+and handoff docs. The technical core rhymes with Druid: automate the operational
+loop so a non-technical team does not need constant engineering support.
 
 ---
 
