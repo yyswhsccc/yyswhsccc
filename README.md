@@ -96,8 +96,3 @@ The goal is **low-touch after setup**, not zero oversight. Humans stay in the lo
 
 - GitHub: [yyswhsccc](https://github.com/yyswhsccc)
 - LinkedIn: [Yongshan Yu](https://www.linkedin.com/in/yongshan-yu-195771319/)
-
-Weijie Sun is my early technical backer, advisor, and intro partner / representative for opportunity discussions.
-
-- Weijie LinkedIn: [weijie-sun-8760648a](https://www.linkedin.com/in/weijie-sun-8760648a/)
-- Weijie email: [weijie2@ualberta.ca](mailto:weijie2@ualberta.ca)
