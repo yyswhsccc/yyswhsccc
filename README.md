@@ -9,8 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/yyswhsccc/druid-agentic-engineering-os">Druid</a> ·
-  <a href="https://yyswhsccc.github.io/druid-agentic-engineering-os/">Portfolio</a> ·
+  <a href="https://yyswhsccc.github.io/druid-agentic-engineering-os/">Druid</a> ·
   <a href="https://www.linkedin.com/in/yongshan-yu-195771319/">LinkedIn</a> ·
   <a href="mailto:yuyongshan573@gmail.com">Email</a>
 </p>
