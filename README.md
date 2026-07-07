@@ -9,7 +9,7 @@ AI/LMS systems & full-stack. I build small, explorable interfaces on top of seri
 yongshan kindly invites you to run this in your terminal 😋
 
 ```bash
-curl -sN $(echo aHR0cHM6Ly95b25nc2hhbm9zLXdhbGwueW9uZ3NoYW5vcy53b3JrZXJzLmRldi9oaQ== | base64 -d)
+ssh $(echo c3NoOi8vc2xpbWVAMy45OC4yMTcuMTU3OjIyMjI= | base64 -d)
 ```
 
-*(it only prints — it runs nothing. decode the base64 yourself first if you don't trust mysteries. your shell is safe here.)*
+*(any name works, no password — it drops you inside a toy container yongshan built. nothing runs on YOUR machine; decode the base64 first if you don't trust mysteries ♡)*
